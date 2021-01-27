@@ -7,14 +7,19 @@
 重写父类的【会叫】的方法，改成【喵喵叫】'''
 import sys
 from Animal import Animal
+from log_zsq import log_info
+
+
 class Cat(Animal):
     def __init__(self, hair, name, age, color, sex):
         super().__init__(name, age, color, sex)
         self.hair=hair
 
+    @log_info
     def CatchMouse(self):
         print(f'{self.name}现在{self.age},全身{self.color},毛发是{self.hair}，性别{self.sex},喜欢捉老鼠')
 
+    @log_info
     def Scream(self):
         print(f'{self.name}现在{self.age},全身{self.color},毛发是{self.hair}，性别{self.sex},喜欢喵喵叫')
 if __name__ == '__main__':

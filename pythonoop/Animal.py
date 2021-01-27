@@ -5,14 +5,20 @@
 添加一个新的属性，毛发 = 短毛，
 添加一个新的方法， 会捉老鼠，
 重写父类的【会叫】的方法，改成【喵喵叫】'''
+from log_zsq import log_info
+
+
 class Animal:
     def __init__(self,name,age,color,sex):
         self.name=name
         self.age = age
         self.color=color
         self.sex=sex
+    @log_info
     def Scream(self):
         print(f'{self.name}现在{self.age},全身{self.color}性别{self.sex},喜欢尖叫')
+
+    @log_info
     def Run(self):
         print(f'{self.name}现在{self.age},全身{self.color}性别{self.sex}，喜欢奔跑')
 
