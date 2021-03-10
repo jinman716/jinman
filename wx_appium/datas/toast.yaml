@@ -1,0 +1,3 @@
+- action: get_toast
+  locator: //*[contains(@text,"添加成功")]
+  by: xpath
