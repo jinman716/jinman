@@ -1,0 +1,11 @@
+[ {
+  "uid" : "457b0cf30adaff10",
+  "name" : "test_delmembers",
+  "time" : {
+    "start" : 1616383418823,
+    "stop" : 1616383458325,
+    "duration" : 39502
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

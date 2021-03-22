@@ -1,0 +1,8 @@
+- by: xpath
+  locator: //*[@resource-id="com.tencent.wework:id/fk1"]
+  action: find_sendkeys
+  value: ${name}
+
+- action: get_toast
+  locator: //*[contains(@text,"无搜索结果")]
+  by: xpath

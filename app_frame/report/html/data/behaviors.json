@@ -1,0 +1,26 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "删除成员功能",
+    "children" : [ {
+      "name" : "测试删除成员",
+      "children" : [ {
+        "name" : "test_delmembers",
+        "uid" : "457b0cf30adaff10",
+        "parentUid" : "725d7c2af4ec6dc8112cfcd1d57fb29e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616383418823,
+          "stop" : 1616383458325,
+          "duration" : 39502
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "725d7c2af4ec6dc8112cfcd1d57fb29e"
+    } ],
+    "uid" : "51c769fb50aaaa91e10d4a72633906ab"
+  } ]
+}

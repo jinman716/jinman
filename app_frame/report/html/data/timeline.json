@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "SC-202005180944",
+    "children" : [ {
+      "name" : "9604-MainThread",
+      "children" : [ {
+        "name" : "test_delmembers",
+        "uid" : "457b0cf30adaff10",
+        "parentUid" : "73d76f3620d95931fcfcfacd14cd3644",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616383418823,
+          "stop" : 1616383458325,
+          "duration" : 39502
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "73d76f3620d95931fcfcfacd14cd3644"
+    } ],
+    "uid" : "abf69ac103871f047f7d55044d83e265"
+  } ]
+}
